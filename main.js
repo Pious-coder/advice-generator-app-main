@@ -23,7 +23,3 @@ function getAdvice() {
 btn.addEventListener('click', () => {
     getAdvice();
 });
-
-window.onload = () => {
-    getAdvice();
-}
